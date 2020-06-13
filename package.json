@@ -1,0 +1,12 @@
+{
+  "name": "roam-night-owl",
+  "version": "0.0.0",
+  "description": "Night Owl theme for Roam Research",
+  "main": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@semantic-release/changelog": "5.0.1"
+  }
+}

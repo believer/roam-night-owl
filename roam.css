@@ -1,0 +1,193 @@
+:root {
+  --bg100: hsl(207, 95%, 8%);
+  --bg200: hsl(207, 95%, 11%);
+  --bg300: hsl(207, 95%, 15%);
+  --bg400: hsl(207, 85%, 20%);
+  --fg: #d6deeb;
+  --fg300: hsl(217, 14%, 55%);
+  --blue: #82aaff;
+  --gray: #637777;
+  --green: #addb67;
+  --purple: hsl(276, 68%, 75%);
+  --purple100: hsl(276, 68%, 23%);
+  --yellow: hsl(35, 71%, 74%);
+}
+
+a {
+  color: var(--blue);
+}
+
+code {
+  background-color: var(--purple);
+  border: 0;
+  color: var(--purple100);
+}
+
+.roam-body {
+  background-color: var(--bg100);
+}
+
+.roam-body .roam-app {
+  color: var(--fg);
+}
+
+.bp3-elevation-3 {
+  background-color: var(--bg300) !important;
+  border: 1px solid var(--bg200);
+}
+
+.bp3-elevation-3 .dont-unfocus-block[style*="background-color"] {
+  background-color: var(--bg100) !important;
+}
+
+/* Header */
+
+.roam-topbar {
+  background-color: var(--bg100);
+}
+
+.rm-saving-icon .rm-synced {
+  background-color: var(--green);
+}
+
+.bp3-input[type="search"] {
+  background-color: var(--bg200);
+  border-color: var(--bg300);
+}
+
+/* Menu */
+
+.bp3-button.bp3-minimal:hover {
+  background-color: var(--bg300);
+}
+
+.roam-body .roam-app .roam-sidebar-container {
+	background-color: var(--bg200);  
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper {
+  color: var(--gray);
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page,
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button {
+  color: var(--gray);
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover,
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover {
+  background-color: var(--bg100);
+  color: var(--fg);
+}
+
+/* Sidebar */
+
+#right-sidebar {
+  background-color: var(--bg200) !important;
+}
+
+/* Checkbox */
+
+.check-container input:checked ~ .checkmark {
+  background-color: var(--green);
+}
+.check-container input:checked ~ .checkmark:after {
+  border-color: var(--gray);
+}
+
+/* Typography */
+.roam-body .roam-app h1 {
+  color: var(--fg);
+}
+
+.rm-page-ref-link-color {
+  color: var(--blue);
+}
+
+.rm-page-ref-tag {
+  color
+}
+
+/* Blocks */
+.block-highlight-blue {
+  background-color: var(--bg200);
+}
+
+.block-border-left {
+  border-color: var(--gray);
+}
+
+.controls .simple-bullet-outer .simple-bullet-inner {
+  background-color: var(--gray);
+}
+
+.roam-block-container {
+  border-radius: 0;
+}
+
+.roam-log-container .roam-log-page {
+  border-color: var(--gray);
+}
+
+.rm-page-ref-brackets {
+  color: var(--gray);
+}
+
+.block-bullet-view {
+  margin-left: 6px;
+}
+
+/* References */
+.rm-zoom.zoom-mentions-view > div {
+  color: var(--fg300) !important;
+}
+
+.rm-reference-item {
+  background-color: var(--bg200);
+  padding: 12px 8px 12px 0;
+}
+
+/* All pages */
+
+.rm-clickable-pill {
+  background-color: var(--blue);
+  opacity: 0.8;
+}
+
+.rm-pages-title-text {
+  color: var(--fg);
+}
+
+.rm-all-pages .table .rm-pages-row.rm-pages-row-header {
+  background-color: var(--bg300);
+  color: var(--fg);
+}
+
+.sorted-header-text,
+.sorting-button-group .sort-button.focused {
+  color: var(--green);
+}
+
+.title-children-text {
+  color: var(--fg300);
+}
+
+/* Inline table */
+
+.rm-query {
+  border-color: var(--bg300);
+}
+
+.rm-query .rm-query-title {
+  background-color: var(--bg300);
+  color: var(--fg300);
+}
+
+.block-highlight-yellow {
+  background-color: var(--yellow);
+  color: var(--bg100);
+}
+
+.block-highlight-yellow .checkmark {
+  border-color: var(--bg100);
+}
