@@ -14,9 +14,12 @@ jobs:
     - uses: actions/checkout@v1
     - uses: actions/setup-node@v1
 
+    - name: Install dependencies
+      run: |
+        npm install
+
     - name: Create release using semantic-release
       run: npx semantic-release
       env:
         # GITHUB_TOKEN is added automatically by GitHub
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        CI: true
