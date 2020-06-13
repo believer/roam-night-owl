@@ -1,6 +1,6 @@
 # Night Owl theme for Roam Research
 
-This is an adaptation of the [Night Owl](https://github.com/sdras/night-owl-vscode-theme) theme for [Roam Research](https://roamresearch.com/).
+This is an adaptation of [Sarah Drasner](https://github.com/sdras)'s [Night Owl](https://github.com/sdras/night-owl-vscode-theme) theme for [Roam Research](https://roamresearch.com/).
 
 ![The note view](/docs/default.png)
 
@@ -12,20 +12,7 @@ This is an adaptation of the [Night Owl](https://github.com/sdras/night-owl-vsco
 1. Paste the styles from [roam.css](/roam.css)
 1. Set the code block language to `css` in the top right
 
-The graph should now be using the Night Owl theme!
-
-Here's a description of the structure:
-
-````
-roam/css
-
-* Some text
-  * ```css
-  /* STYLES GO HERE */
-    ```
-````
-
-There is also [this video](https://www.youtube.com/watch?time_continue=1&v=UY-sAC2eGyI&feature=emb_logo) which describes how to setup a theme.
+The graph should now be using the Night Owl theme! There is also [this video](https://www.youtube.com/watch?time_continue=1&v=UY-sAC2eGyI&feature=emb_logo) which describes how to setup a theme.
 
 ## Screenshots
 
