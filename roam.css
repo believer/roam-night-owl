@@ -7,7 +7,8 @@
   --fg300: hsl(217, 14%, 55%);
   --blue: #82aaff;
   --gray: #637777;
-  --green: #addb67;
+  --green100: hsl(84, 62%, 19%);
+  --green400: #addb67;
   --purple: hsl(276, 68%, 75%);
   --purple100: hsl(276, 68%, 23%);
   --yellow: hsl(35, 71%, 74%);
@@ -47,7 +48,7 @@ code {
 }
 
 .rm-saving-icon .rm-synced {
-  background-color: var(--green);
+  background-color: var(--green400);
 }
 
 .bp3-input[type="search"] {
@@ -90,7 +91,7 @@ code {
 /* Checkbox */
 
 .check-container input:checked ~ .checkmark {
-  background-color: var(--green);
+  background-color: var(--green400);
 }
 .check-container input:checked ~ .checkmark:after {
   border-color: var(--gray);
@@ -166,7 +167,7 @@ code {
 
 .sorted-header-text,
 .sorting-button-group .sort-button.focused {
-  color: var(--green);
+  color: var(--green400);
 }
 
 .title-children-text {
@@ -206,11 +207,21 @@ code {
 
 .rm-page-ref[data-tag="Book"],
 .rm-page-ref[data-tag="Books"] {
-  background-color: var(--green);
+  background-color: var(--green400);
   color: var(--bg300);
 }
 
 .rm-page-ref[data-tag="Book"]:after,
 .rm-page-ref[data-tag="Books"]:after {
   content: '📚';
+}
+
+/* Selected */
+
+.flex-v-box:focus-within > div > .flex-h-box .controls .simple-bullet-inner {
+  background-color: var(--green400);
+}
+
+.flex-v-box.roam-block-container:focus-within > .flex-v-box > .block-border-left {
+  border-color: var(--green100);
 }
