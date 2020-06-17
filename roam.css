@@ -53,6 +53,7 @@ code {
 .bp3-input[type="search"] {
   background-color: var(--bg200);
   border-color: var(--bg300);
+  color: var(--fg);
 }
 
 /* Menu */
