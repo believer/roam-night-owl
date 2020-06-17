@@ -214,6 +214,19 @@ code {
 .rm-page-ref[data-tag="Book"]:after,
 .rm-page-ref[data-tag="Books"]:after {
   content: '📚';
+  margin-left: 4px;
+}
+
+.rm-page-ref[data-tag="Article"],
+.rm-page-ref[data-tag="Articles"] {
+  background-color: var(--yellow);
+  color: var(--bg300);
+}
+
+.rm-page-ref[data-tag="Article"]:after,
+.rm-page-ref[data-tag="Articles"]:after {
+  content: '📰';
+  margin-left: 4px;
 }
 
 /* Selected */
