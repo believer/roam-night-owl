@@ -192,3 +192,25 @@ code {
 .block-highlight-yellow .checkmark {
   border-color: var(--bg100);
 }
+
+/* Tags */
+/* Supported tags:
+ * #book, #books
+ */
+
+.rm-page-ref {
+  border-radius: 2px;
+  padding: 3px;
+  font-weight: 600;
+}
+
+.rm-page-ref[data-tag="Book"],
+.rm-page-ref[data-tag="Books"] {
+  background-color: var(--green);
+  color: var(--bg300);
+}
+
+.rm-page-ref[data-tag="Book"]:after,
+.rm-page-ref[data-tag="Books"]:after {
+  content: '📚';
+}
