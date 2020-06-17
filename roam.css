@@ -225,3 +225,45 @@ code {
 .flex-v-box.roam-block-container:focus-within > .flex-v-box > .block-border-left {
   border-color: var(--green100);
 }
+
+/* Heading with Pomodoro and word-count
+ * h3 Title {{[[POMO]]}} {{word-count}}
+ * */
+
+.rm-level3 .roam-block > span {
+  display: flex;
+}
+
+.rm-level3 .roam-block > span > div {
+  align-self: flex-start;
+  margin-left: auto;
+}
+
+.rm-level3 .roam-block > span > div > button.bp3-button {
+  background: var(--bg300);
+  font-size: 12px;
+  color: var(--fg);
+  text-transform: capitalize;
+  min-height: 0;
+  padding: 2px 8px;
+}
+
+.rm-level3 .roam-block .rm-pomodoro {
+  align-self: center !important;
+  color: var(--fg300);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+.rm-level3 .roam-block .rm-pomodoro:first-letter {
+  margin-right: 8px;
+}
+
+.rm-level3 .roam-block > span > button.bp3-button {
+  background: none;
+  color: var(--fg300);
+  font-size: 12px;
+  margin-left: 16px;
+  min-height: 0;
+  padding: 0;
+}
