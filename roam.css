@@ -121,6 +121,9 @@ code {
 
 .controls .simple-bullet-outer .simple-bullet-inner {
   background-color: var(--gray);
+  transition-duration: 200ms;
+  transition-property: transform, background-color;
+  transition-timing-function: ease-in-out;
 }
 
 .roam-block-container {
@@ -233,6 +236,7 @@ code {
 
 .flex-v-box:focus-within > div > .flex-h-box .controls .simple-bullet-inner {
   background-color: var(--green400);
+  transform: scale(1.3);
 }
 
 .flex-v-box.roam-block-container:focus-within > .flex-v-box > .block-border-left {
