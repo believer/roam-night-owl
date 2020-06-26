@@ -57,6 +57,17 @@ code {
   color: var(--fg);
 }
 
+/* Typography */
+
+.roam-highlight {
+  background-color: var(--yellow);
+  color: var(--bg100);
+}
+
+.roam-highlight a {
+  color: var(--bg100);
+}
+
 /* Menu */
 
 .bp3-button.bp3-minimal:hover {
