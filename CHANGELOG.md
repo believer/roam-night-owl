@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/believer/roam-night-owl/compare/v1.0.0...v1.1.0) (2020-07-03)
+
+
+### Features
+
+* add video tag styling ([126e347](https://github.com/believer/roam-night-owl/commit/126e3470c70b152440a1d3c080d0c04d2a892764))
+
 # 1.0.0 (2020-07-01)
 
 
