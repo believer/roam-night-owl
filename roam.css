@@ -231,8 +231,13 @@ code {
 
 .rm-page-ref {
   border-radius: 2px;
-  padding: 3px;
+  padding: 2px 8px 2px 6px;
   font-weight: 600;
+}
+
+.rm-page-ref:after {
+  vertical-align: middle;
+  margin-left: 4px;
 }
 
 .rm-page-ref[data-tag="Book"],
@@ -244,7 +249,6 @@ code {
 .rm-page-ref[data-tag="Book"]:after,
 .rm-page-ref[data-tag="Books"]:after {
   content: "📚";
-  margin-left: 4px;
 }
 
 .rm-page-ref[data-tag="Article"],
@@ -256,7 +260,17 @@ code {
 .rm-page-ref[data-tag="Article"]:after,
 .rm-page-ref[data-tag="Articles"]:after {
   content: "📰";
-  margin-left: 4px;
+}
+
+.rm-page-ref[data-tag="Video"],
+.rm-page-ref[data-tag="Videos"] {
+  background-color: var(--blue);
+  color: var(--bg300);
+}
+
+.rm-page-ref[data-tag="Video"]:after,
+.rm-page-ref[data-tag="Videos"]:after {
+  content: "📼";
 }
 
 /* Selected */
