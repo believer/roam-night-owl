@@ -12,10 +12,11 @@
   --purple: hsl(276, 68%, 75%);
   --purple100: hsl(276, 68%, 23%);
   --yellow: hsl(35, 71%, 74%);
+  --red: rgb(255, 134, 134);
 }
 
 a {
-  color: var(--blue);
+  color: var(--red);
 }
 
 code {
