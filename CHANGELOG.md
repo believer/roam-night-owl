@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/believer/roam-night-owl/compare/v1.1.0...v1.2.0) (2020-07-07)
+
+
+### Features
+
+* update link color ([e54b8e6](https://github.com/believer/roam-night-owl/commit/e54b8e6419d301bbf937d5a7da285042b235b97a))
+
 # [1.1.0](https://github.com/believer/roam-night-owl/compare/v1.0.0...v1.1.0) (2020-07-03)
 
 
