@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/believer/roam-night-owl/compare/v1.2.0...v1.3.0) (2020-07-28)
+
+
+### Features
+
+* add movie and podcast tag ([fdb37a9](https://github.com/believer/roam-night-owl/commit/fdb37a90b1e3ea6345b0ecc2e2898785bf2a9626))
+
 # [1.2.0](https://github.com/believer/roam-night-owl/compare/v1.1.0...v1.2.0) (2020-07-07)
 
 
