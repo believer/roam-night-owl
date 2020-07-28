@@ -274,6 +274,28 @@ code {
   content: "📼";
 }
 
+.rm-page-ref[data-tag="Movie"],
+.rm-page-ref[data-tag="Movies"] {
+  background-color: var(--purple);
+  color: var(--bg300);
+}
+
+.rm-page-ref[data-tag="Movie"]:after,
+.rm-page-ref[data-tag="Movies"]:after {
+  content: "🎬";
+}
+
+.rm-page-ref[data-tag="Podcast"],
+.rm-page-ref[data-tag="Podcasts"] {
+  background-color: var(--red);
+  color: var(--bg300);
+}
+
+.rm-page-ref[data-tag="Podcast"]:after,
+.rm-page-ref[data-tag="Podcasts"]:after {
+  content: "🎤";
+}
+
 /* Selected */
 
 .flex-v-box:focus-within > div > .flex-h-box .controls .simple-bullet-inner {
@@ -329,3 +351,13 @@ code {
   padding: 0;
 }
 
+/* Block references */
+
+.rm-block-ref {
+  border-color: var(--yellow);
+}
+
+.rm-block-ref:hover {
+  background-color: var(--yellow);
+  color: var(--bg300);
+}
