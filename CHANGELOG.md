@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/believer/roam-night-owl/compare/v1.3.0...v1.4.0) (2020-08-12)
+
+
+### Features
+
+* a bunch of styling updates ([a0a9d44](https://github.com/believer/roam-night-owl/commit/a0a9d44cc11a930946fac629e013e75398c299a8))
+
 # [1.3.0](https://github.com/believer/roam-night-owl/compare/v1.2.0...v1.3.0) (2020-07-28)
 
 
