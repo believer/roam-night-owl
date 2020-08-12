@@ -1,3 +1,5 @@
+@import url("https://rsms.me/inter/inter.css");
+
 :root {
   --bg100: hsl(207, 95%, 8%);
   --bg200: hsl(207, 95%, 11%);
@@ -13,10 +15,27 @@
   --purple100: hsl(276, 68%, 23%);
   --yellow: hsl(35, 71%, 74%);
   --red: rgb(255, 134, 134);
+
+  --lg: 1.125rem;
+  --xl: 1.25rem;
+  --xl2: 1.5rem;
 }
 
 a {
-  color: var(--red);
+  color: var(--blue);
+}
+
+a:focus,
+a:hover {
+  color: var(--blue);
+}
+
+a[href*="//"]:not([href*="roamresearch.com"]):after
+{
+  color: var(--gray);
+  content: "(ext)";
+  font-size: 12px;
+  margin-left: 4px;
 }
 
 code {
@@ -40,6 +59,23 @@ code {
 
 .bp3-elevation-3 .dont-unfocus-block[style*="background-color"] {
   background-color: var(--bg100) !important;
+}
+
+/* Headings */
+.rm-level1 {
+  font-size: var(--xl2);
+}
+
+.rm-level2 {
+  font-size: var(--xl);
+}
+
+.rm-level3 {
+  font-size: var(--lg);
+}
+
+.rm-level3 .check-container {
+  margin-right: 8px;
 }
 
 /* Header */
@@ -177,7 +213,22 @@ code {
 
 .rm-reference-item {
   background-color: var(--bg200);
-  padding: 12px 8px 12px 0;
+  border: 1px solid var(--bg400);
+  border-radius: 3px;
+  padding: 12px;
+}
+
+.rm-reference-item span {
+  padding: 0 !important;
+}
+
+.rm-reference-item .controls {
+  flex: 0 0 20px;
+  padding-left: 0;
+}
+
+.rm-reference-item .block-expand {
+  display: none;
 }
 
 /* All pages */
@@ -228,12 +279,25 @@ code {
 /* Tags */
 /* Supported tags:
  * #book, #books
+ * #article, #articles
+ * #video, #videos
+ * #movie, #movies
+ * #podcast, #podcasts
  */
 
 .rm-page-ref {
   border-radius: 2px;
-  padding: 2px 8px 2px 6px;
+  padding: 2px 4px;
   font-weight: 600;
+}
+
+.rm-page-ref.rm-page-ref-tag {
+  padding: 4px 8px 4px 6px;
+  font-size: 12px;
+}
+
+.rm-page-ref.rm-page-ref-tag:hover {
+  text-decoration: none;
 }
 
 .rm-page-ref:after {
@@ -309,6 +373,12 @@ code {
   border-color: var(--green100);
 }
 
+/* Pomodoro */
+button.dont-focus-block.bp3-button {
+  background: var(--red);
+  text-transform: capitalize;
+}
+
 /* Heading with Pomodoro and word-count
  * h3 Title {{[[POMO]]}} {{word-count}}
  * */
@@ -354,10 +424,19 @@ code {
 /* Block references */
 
 .rm-block-ref {
-  border-color: var(--yellow);
+  border: 0;
+}
+
+.rm-block-ref:before {
+  background-color: var(--yellow);
+  content: "";
+  display: inline-block;
+  height: 10px;
+  margin-right: 5px;
+  width: 3px;
 }
 
 .rm-block-ref:hover {
-  background-color: var(--yellow);
-  color: var(--bg300);
+  background: none;
+  cursor: pointer;
 }
